@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Macetas Personalizadas">
+    <meta name="description" content="Encontraras los mejores precios en Macetas, Jardineria, Plantas, etc.">
+    <meta name="keywords" content="Jardineria, Macetas Personalizadas, Plantas, Podas, Riego, etc.">
+    <title>Plantines y Macetas Personalizadas</title>
+    <link rel="icon" href="img/icon/icon.png"><!--Icono de la pagina-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--Link de bootstrap-->  
+    <link rel="stylesheet" href="style/estilos.css"> <!--Estilos del scss-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> <!--Link de iconos-->
+</head>
+<body>
+    <!--HEADER / MENU / NAVEGACIÓN-->
+    <header class="pb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="index.html"><img src="img/logo/logo.jpg" class="logo"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="facturacion.html">Facturación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="sobre nosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user-alt"></i></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="js/sing up/ingreso.html">Iniciar sesión</a></li>
+                      <li><a class="dropdown-item" href="js/sing up/registrarse.html">Crear cuenta</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--PORTADA / CAROUSEL-->
+    <main class="container main__carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel/Jardineria.jpg" class="d-block w-100" alt="Jardineria">
+            <div class="carousel-caption d-none d-md-block color-white">
+              <h4>Espacios Verdes</h4>
+              <p>Limpieza y Mantenimiento de Espacios Verdes</p>
+            </div>
+          </div>
+          <div class="carousel-item color-white">
+            <img src="img/carousel/herramientas.jpg" class="d-block w-100" alt="Herramientas">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Herramientas de buena calidad</h4>
+              <p>Contamos con todo lo necesario para que tu jardin quede 10 puntos</p>
+
+            </div>
+          </div>
+          <div class="carousel-item color-white">
+            <img src="img/carousel/buscamos-empleados.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>¿Queres trabajar con nosotros?</h4>
+              <p>¡Nuestra compania te esta buscando!</p>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div>
+            <h1>
+                <strong>¡TENEMOS DESCUENTOS HASTA EL 50%!</strong>
+            </h1>
+        </div>
+    </main>
+    <!--SECTION / PRODUCTOS-->
+    <section class="container">
+        <div class="section__catalogo">
+            <div>
+                <h4>PLANTAS</h4>
+                <a href=""><img src="img/section/plantas.jpg" alt="Plantas"></a>
+            </div>
+            <div>
+                <h4>MACETAS</h4>
+                <a href=""><img src="img/section/macetas.jpg" alt="Macetas"></a>
+            </div>
+            <div>
+                <h4>JARDINERIA</h4>
+                <a href=""><img src="img/section/jardineria.jpg" alt="Jardineria"></a>
+            </div>
+        </div>
+    </section>
+    <!--TRABAJA CON NOSOTROS / SECTION 2-->
+    <section id="section2" class="container">
+        <h1>TRABAJA CON NOSOTROS</h1>
+        <div class="card" style="width: 100%;">
+            <img src="img/section/trabaja-con-nosotros.jpg" class="card-img-top" alt="trabaja-con-nosotros">
+            <div class="card-body">
+              <h5 class="card-title">DEJANOS TU CURRICULUM</h5>
+              <p class="card-text">Estamos en busqueda de personas responsables, activas y con ganas de trabajar, dejanos tu curriculum para que nos podamos contactar con vos</p>
+              <input type="file" name="cv">
+              <a href="index.html" class="btn btn-dark">Enviar CV</a>
+            </div>
+          </div>
+    </section>
+    <!--FOOTER / REDES SOCIALES-->
+    <footer class="bg-dark">
+        <div class="footer__redes">
+            <ul >
+                <li><a href="https://www.facebook.com/BenjaCARP2"><i class="fab fa-facebook icon-rd"></i></a> </li>
+                 <li><a href="https://www.instagram.com/benja_laza/?hl=es-la"><i class="fab fa-instagram-square icon-rd"></i></a> </li>
+                 <li><a href="https://twitter.com/BenjaLaza1"><i class="fab fa-twitter icon-rd"></i></a> </li>
+                 <li><a href=""><i class="fab fa-whatsapp icon-rd"></i></a> </li>
+            </ul>
+        </div>
+       <span>&#9400 TODOS LOS DERECHOS RESERVADOS</span>
+   </footer>
+
+
+
+    <!--Link de JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

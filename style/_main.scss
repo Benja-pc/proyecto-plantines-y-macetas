@@ -1,0 +1,29 @@
+$c-color: rgb(201, 201, 201);
+.main__carousel{
+    img{
+        height: 55vh;
+        border-radius: 5%;
+    }
+    
+    h4{
+        color: $c-color;
+        background-color: black;
+        border-radius: 50px;
+    }
+    p{
+        color: $c-color;
+        background-color: green;
+    }
+    h1 strong{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font: {
+            size: 2rem;
+            family: cursive;
+        }
+        padding: 20px;
+        margin: 20px;
+        
+    }
+}

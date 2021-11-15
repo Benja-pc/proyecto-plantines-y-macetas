@@ -1,0 +1,22 @@
+.section__catalogo{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    div{
+        width: 33.3;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+        border-style: solid;
+        border-color: rgb(1, 27, 1);
+        
+    }
+
+    h4{
+        color:white;
+        font-family: cursive;
+        text-align: center;
+        padding: 8px;
+    }
+}
