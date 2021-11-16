@@ -21,6 +21,22 @@
         padding: 8px;
     }
 }
+@media(max-width: 780px){
+    .section__catalogo{
+        display: inline-block;
+        width: 100%;
+        div{
+            width: 100%;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+            border-style: solid;
+            border-color: rgb(1, 27, 1);
+            
+        }
+    }
+}
 /*FORMULARIO / CONTACTO / SECTION*/
 .formulario{
     color: rgb(231, 231, 231);

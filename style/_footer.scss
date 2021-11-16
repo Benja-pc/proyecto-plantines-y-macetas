@@ -1,3 +1,4 @@
+/*FOOTER / REDES SOCIALES*/
 footer{
     span{
         color: white;
@@ -23,5 +24,26 @@ footer{
     .icon-rd{
         padding: 0 15px ;
         font-size: 2rem;
+    }
+}
+/*CHAT FLOTANTE / POSICION FIJA*/
+.chat{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(41, 153, 65);
+    color: white;
+    bottom: 0;
+    right: 20px;
+    border-radius: 100%;
+    i{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 780px){
+    .chat{
+        display: none;
     }
 }

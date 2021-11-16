@@ -15,8 +15,15 @@
     }
     h5{
         text-align: center;
+        :hover{
+            color: rgb(172, 42, 42);
+            transition-duration: 1s;
+        }
     }
     a{
+        font-family: cursive;
+        color: black;
+        text-decoration: none;
         padding: 10px;
     }
 }
