@@ -104,6 +104,7 @@ body {
 .productos a, .productos h4, .productos h6 {
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 .productos img {
@@ -114,7 +115,7 @@ body {
 @media (max-width: 780px) {
   .productos {
     display: inline-block;
-    width: 60%;
+    width: 100%;
   }
   .productos div {
     width: 100%;
