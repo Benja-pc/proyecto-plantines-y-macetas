@@ -99,17 +99,27 @@ body {
   width: 25%;
   height: 50vh;
   padding: 20px;
+  margin: 10px 0;
+}
+
+.productos div :hover {
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
 }
 
 .productos a, .productos h4, .productos h6 {
   text-decoration: none;
   color: white;
   text-align: center;
+  padding: 5px 0;
 }
 
 .productos img {
   width: 100%;
   height: 100%;
+  padding: 20px 0;
 }
 
 @media (max-width: 780px) {
@@ -122,6 +132,12 @@ body {
     height: 50vh;
     margin: 3rem 0;
   }
+  .productos div :hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-duration: none;
+            transition-duration: none;
+  }
   .productos a, .productos h4, .productos h6 {
     text-decoration: none;
     color: white;
@@ -130,6 +146,17 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+
+/*PAGINA DE NAVEGACION*/
+.page__navegation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
 }
 
 /*TRABAJA CON NOSOTROS / SECTION 2*/
@@ -184,6 +211,21 @@ aside .maps {
 aside .contacto, aside div {
   width: 100%;
   background-color: #202020;
+}
+
+@media (max-width: 780px) {
+  aside {
+    display: inline-block;
+  }
+  aside .maps {
+    width: 100%;
+    height: 60vh;
+  }
+  aside .contacto, aside div {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+  }
 }
 
 footer span {
