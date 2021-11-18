@@ -16,6 +16,7 @@ body {
   border-color: #494949;
 }
 
+/*CAROUSEL / MAIN */
 .main__carousel img {
   height: 55vh;
   border-radius: 5%;
@@ -44,6 +45,52 @@ body {
   font-family: cursive;
   padding: 20px;
   margin: 20px;
+}
+
+/*MAIN / INGRESO / SESION*/
+.fondo__body--ingreso {
+  background-image: url(https://fondosmil.com/fondo/26795.jpg);
+}
+
+.ingreso {
+  width: 100%;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.ingreso form {
+  width: 50%;
+}
+
+.ingreso form h1 {
+  background-color: rgba(0, 255, 0, 0.13);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding: 20px 0;
+  border-radius: 40%;
+}
+
+.ingreso form .check-box {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  line-height: 65%;
+}
+
+.ingreso form a {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .ingreso {
+    width: 100%;
+  }
+  .ingreso form {
+    width: 100%;
+  }
 }
 
 /*SECTION / INDEX / CATALOGO*/

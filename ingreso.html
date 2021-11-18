@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style/estilos.css"> <!--Estilos del scss-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> <!--Link de iconos-->
 </head>
-<body>
+<body class="fondo__body--ingreso">
     <!--HEADER / MENU / NAVEGACIÓN-->
     <header class="pb-3">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,38 +53,40 @@
             </div>
           </nav>
     </header>
-    <!--FORMULARIO / CONTACTO-->
-    <section class="container p-5 bg-success.bg-gradient formulario">      
-        <h3>
-           <strong>Deje su consulta aqui.</strong> 
-        </h3>
+    <!--MAIN / INGRESO SESION-->
 
-    <form method="POST">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label white">Nombre/s</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre" required>
-          </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label">Apellido/s</label>
-            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Ingrese su apellido" required>
-          </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Email" required>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">¿Cual es el motivo de su consulta?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-          </div>
-          <div class="button-contacto">
-            <button type="submit" class="btn btn-dark ">Enviar consulta</button>
-          <button type="reset" class="btn btn-dark ">Limpiar todo</button>
+    <main class="ingreso">
+      <form method="post" class="container">
+        <h1>
+          <strong>Iniciar sesión</strong>
+        </h1>
+          
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput"><i class="fas fa-user-alt"></i> Correo Electronico</label>
           </div>
           
-        </form>
-    </section>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword"><i class="fas fa-unlock-alt"></i> Contraseña</label>
+          </div>
+          <div class="check-box">
+            <input type="checkbox" checked >Recuérdame
+          </div>
+          <div class="mb-3">
+            <a href="#">¿Haz olvidado tu Contraseña?</a>
+          </div>
+    
+          <div class="d-grid gap-2 col-6 mx-auto mb-5">
+            <button class="btn btn-dark" type="button">Iniciar sesión</button>
+          </div>
+    
+        </fieldset>
+      </form>
+    </main>
 
     <!--FOOTER / REDES SOCIALES-->
+
     <footer class="bg-dark">
         <div class="footer__redes">
             <ul >
