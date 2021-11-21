@@ -30,10 +30,10 @@ $c-color: rgb(201, 201, 201);
 }
 
 /*MAIN / INGRESO / SESION*/
-.fondo__body--ingreso{
-    background-image: url(https://1.bp.blogspot.com/-c8WITrdOwzY/X7fr180mAVI/AAAAAAAB9M0/eYGNhZMAPyMD7bu3KuGbJZmeZ6JgdRZ8ACLcBGAsYHQ/s1000/Tower%2BHill%2BScenes%2Bfor%2BZoom%2BBackgrounds%2B1000px.jpg);
-}
+
 .ingreso{
+    background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+    border-radius: 10%;
     width: 100%;
     text-align: center;
     margin: 35px 0;
@@ -62,7 +62,7 @@ $c-color: rgb(201, 201, 201);
         
     }
     a{
-        color: rgb(196, 196, 196);
+        color: rgb(17, 3, 100);
         text-decoration: none;
 
     }
@@ -71,10 +71,5 @@ $c-color: rgb(201, 201, 201);
 @media(max-width:500px){
     .ingreso{
         width: 100%;
-        height: 50vh;
-        form{
-            width: 100%;
-            
-        }
     }
 }

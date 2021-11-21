@@ -48,11 +48,9 @@ body {
 }
 
 /*MAIN / INGRESO / SESION*/
-.fondo__body--ingreso {
-  background-image: url(https://1.bp.blogspot.com/-c8WITrdOwzY/X7fr180mAVI/AAAAAAAB9M0/eYGNhZMAPyMD7bu3KuGbJZmeZ6JgdRZ8ACLcBGAsYHQ/s1000/Tower%2BHill%2BScenes%2Bfor%2BZoom%2BBackgrounds%2B1000px.jpg);
-}
-
 .ingreso {
+  background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+  border-radius: 10%;
   width: 100%;
   text-align: center;
   margin: 35px 0;
@@ -87,16 +85,12 @@ body {
 }
 
 .ingreso form a {
-  color: #c4c4c4;
+  color: #110364;
   text-decoration: none;
 }
 
 @media (max-width: 500px) {
   .ingreso {
-    width: 100%;
-    height: 50vh;
-  }
-  .ingreso form {
     width: 100%;
   }
 }
@@ -309,11 +303,9 @@ aside .contacto, aside div {
 }
 
 /*REGISTRO / FORM / SECTION*/
-.fondo__body--registro {
-  background-image: url(https://1.bp.blogspot.com/-c8WITrdOwzY/X7fr180mAVI/AAAAAAAB9M0/eYGNhZMAPyMD7bu3KuGbJZmeZ6JgdRZ8ACLcBGAsYHQ/s1000/Tower%2BHill%2BScenes%2Bfor%2BZoom%2BBackgrounds%2B1000px.jpg);
-}
-
 .registro {
+  background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+  border-radius: 10%;
   color: white;
   text-align: center;
 }
