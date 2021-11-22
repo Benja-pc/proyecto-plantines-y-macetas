@@ -224,6 +224,40 @@ body {
   padding: 50px 0;
 }
 
+/*SECTION / FACTURACION / COMPRAS*/
+.facturacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: whitesmoke;
+  padding: 30px 2px;
+}
+
+.facturacion img {
+  width: 35px;
+}
+
+.facturacion ul {
+  list-style: none;
+}
+
+.facturacion a {
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .facturacion {
+    display: inline-block;
+    width: 100%;
+  }
+  .facturacion .inicio__sesion {
+    display: none;
+  }
+  .facturacion .columna__compras {
+    margin: 0 20px;
+  }
+}
+
 /*TRABAJA CON NOSOTROS / SECTION 2*/
 #section2 div {
   background-color: #f0f0f0;
