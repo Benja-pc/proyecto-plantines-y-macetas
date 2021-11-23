@@ -245,6 +245,11 @@ body {
   color: black;
 }
 
+.facturacion .regreso {
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width: 700px) {
   .facturacion {
     display: inline-block;
