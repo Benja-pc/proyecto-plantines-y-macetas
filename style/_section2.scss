@@ -68,16 +68,14 @@ aside{
 
 /*REGISTRO / FORM / SECTION*/
 .registro{
-    background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+    background-color: whitesmoke;
     border-radius: 10%;
-    color: white;
+    color: rgb(5, 49, 8);
     text-align: center;
     h1{
-        background-color: rgba(153, 205, 50, 0.356);
         font-family: cursive;
         font-size: 4rem;
         padding: 30px 0;
-        border-radius: 50%;
         
     }
     img{
@@ -94,6 +92,11 @@ aside{
     }
     .boton{
         padding: 30px 0;
+    }
+    a{
+        margin: 0 5px;
+        text-decoration: none;
+        color: rgb(8, 8, 99);
     }
     }
 }

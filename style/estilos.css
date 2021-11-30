@@ -49,20 +49,17 @@ body {
 
 /*MAIN / INGRESO / SESION*/
 .ingreso {
-  background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+  background-color: whitesmoke;
   border-radius: 10%;
-  width: 100%;
   text-align: center;
-  margin: 35px 0;
+  margin: 35px auto;
 }
 
 .ingreso h1 {
-  background-color: rgba(0, 255, 0, 0.13);
   font-family: cursive;
-  color: white;
+  color: #053108;
   font-size: 4rem;
   padding: 30px 0;
-  border-radius: 50%;
 }
 
 .ingreso img {
@@ -76,7 +73,7 @@ body {
 }
 
 .ingreso form .check-box {
-  color: white;
+  color: #080863;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,18 +340,16 @@ aside .contacto, aside div {
 
 /*REGISTRO / FORM / SECTION*/
 .registro {
-  background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+  background-color: whitesmoke;
   border-radius: 10%;
-  color: white;
+  color: #053108;
   text-align: center;
 }
 
 .registro h1 {
-  background-color: rgba(153, 205, 50, 0.356);
   font-family: cursive;
   font-size: 4rem;
   padding: 30px 0;
-  border-radius: 50%;
 }
 
 .registro img {
@@ -375,6 +370,12 @@ aside .contacto, aside div {
 
 .registro .form .boton {
   padding: 30px 0;
+}
+
+.registro .form a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #080863;
 }
 
 /*FOOTER / REDES SOCIALES*/

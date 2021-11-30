@@ -32,18 +32,15 @@ $c-color: rgb(201, 201, 201);
 /*MAIN / INGRESO / SESION*/
 
 .ingreso{
-    background-image: url(https://i.pinimg.com/originals/16/8a/cf/168acf0a5009520b12aa972031d58894.jpg);
+    background-color: whitesmoke;
     border-radius: 10%;
-    width: 100%;
     text-align: center;
-    margin: 35px 0;
+    margin: 35px auto;
     h1{
-        background-color: rgba(0, 255, 0, 0.13);
         font-family: cursive;
-        color: white;
+        color: rgb(5, 49, 8);
         font-size: 4rem;
         padding: 30px 0 ;
-        border-radius: 50%;
     }
     img{
         width: 100px;
@@ -52,10 +49,8 @@ $c-color: rgb(201, 201, 201);
     }
     form{
         width: 50%;
-    
-    
     .check-box{
-        color: white;
+        color: rgb(8, 8, 99);
         display: flex;
         padding: 10px;
         line-height: 65%;
